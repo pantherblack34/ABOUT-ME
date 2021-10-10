@@ -10,7 +10,7 @@ let aChalk = chalk.magentaBright;
 
 let choice = readLineSync.question(chalk.green("DO YOU WANT TO PLAY A QUIZ GAME,") + uName + "[Y/N]");
 
-let highScore = 11;
+let highScore = 9;
 
 let quests = 
 [
@@ -159,7 +159,7 @@ let userAns10 = readLineSync.question(quests[10]);
 }
 
 function highScr(){
-  if(score > highScore){
+  if(score >= highScore){
     console.log("HURRAY!!!You have beaten highscore!!!")
   }else{
     console.log("DON'T GIVE UP")

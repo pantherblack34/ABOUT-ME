@@ -61,6 +61,8 @@ function playGame(){
       console.log(uName+"'s Score : " + score);
     }else{
       console.log("wrong")
+      score = 0;
+      console.log(uName+"'s Score : " + score);
     }
 
   let userAns1 = readLineSync.question(quests[1]);
@@ -70,6 +72,7 @@ function playGame(){
       console.log(uName+"'s Score : " + score);
     }else{
       console.log("wrong");
+      console.log(uName+"'s Score : " + score);
     }
 
 let userAns2 = readLineSync.question(quests[2]);
@@ -78,7 +81,8 @@ let userAns2 = readLineSync.question(quests[2]);
       score += 1;
       console.log(uName+"'s Score : " + score);
     }else{
-      console.log("wrong")
+      console.log("wrong");
+      console.log(uName+"'s Score : " + score);
     }
 
 let userAns3 = readLineSync.question(quests[3]);
@@ -87,7 +91,8 @@ let userAns3 = readLineSync.question(quests[3]);
       score += 1;
       console.log(uName+"'s Score : " + score);
     }else{
-      console.log("wrong")
+      console.log("wrong");
+      console.log(uName+"'s Score : " + score);
     }
 
 let userAns4 = readLineSync.question(quests[4]);
@@ -97,6 +102,7 @@ let userAns4 = readLineSync.question(quests[4]);
       console.log(uName+"'s Score : " + score);
     }else{
       console.log("wrong")
+      console.log(uName+"'s Score : " + score);
     }
 
 let userAns5 = readLineSync.question(quests[5]);
@@ -105,7 +111,8 @@ let userAns5 = readLineSync.question(quests[5]);
       score += 1;
       console.log(uName+"'s Score : " + score);
     }else{
-      console.log("wrong")
+      console.log("wrong");
+      console.log(uName+"'s Score : " + score);
     }
 
 let userAns6 = readLineSync.question(quests[6]);
@@ -114,7 +121,8 @@ let userAns6 = readLineSync.question(quests[6]);
       score += 1;
       console.log(uName+"'s Score : " + score);
     }else{
-      console.log("wrong")
+      console.log("wrong");
+      console.log(uName+"'s Score : " + score);
     }
 
 let userAns7 = readLineSync.question(quests[7]);
@@ -123,7 +131,8 @@ let userAns7 = readLineSync.question(quests[7]);
       score += 1;
       console.log(uName+"'s Score : " + score);
     }else{
-      console.log("wrong")
+      console.log("wrong");
+      console.log(uName+"'s Score : " + score);
     }
 
 let userAns8 = readLineSync.question(quests[8]);
@@ -132,7 +141,8 @@ let userAns8 = readLineSync.question(quests[8]);
       score += 1;
       console.log(uName+"'s Score : " + score);
     }else{
-      console.log("wrong")
+      console.log("wrong");
+      console.log(uName+"'s Score : " + score);
     }
 
 let userAns9 = readLineSync.question(quests[9]);
@@ -141,7 +151,8 @@ let userAns9 = readLineSync.question(quests[9]);
       score += 1;
       console.log(uName+"'s Score : " + score);
     }else{
-      console.log("wrong")
+      console.log("wrong");
+      console.log(uName+"'s Score : " + score);
     }
 
 let userAns10 = readLineSync.question(quests[10]);
@@ -150,7 +161,8 @@ let userAns10 = readLineSync.question(quests[10]);
       score += 1;
       console.log(uName+"'s Score : " + score);
     }else{
-      console.log("wrong")
+      console.log("wrong");
+      console.log(uName+"'s Score : " + score);
     }
 
     console.log(uName + " Score: " + score);

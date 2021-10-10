@@ -165,9 +165,9 @@ let userAns10 = readLineSync.question(quests[10]);
       console.log(uName+"'s Score : " + score);
     }
 
-    console.log(uName + " Score: " + score);
+
     console.log("THANK YOU FOR PLAYING!!!! " + uName);
-    console.log(uName + "'s score: "+ score)
+    console.log(uName + "'s score : "+ score)
 }
 
 function highScr(){
